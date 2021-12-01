@@ -1,0 +1,17 @@
+{
+  "extends": "./config/ts/base.json",
+  "compilerOptions": {
+    "declaration": false
+  },
+  "include": [
+    "src",
+    "webpack",
+    "webpack.config.ts",
+    "jest.config.ts",
+    "declarations.d.ts",
+  ],
+  "exclude": [
+    "build",
+    "coverage"
+  ]
+}
